@@ -1,0 +1,346 @@
+/*CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS reset*/
+body{
+	font-family: arial,'Microsoft JhengHei';
+}
+
+.wrap{
+	width: 1001px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.bar{
+	background-color: #f6f6f6;
+	height: 30px;
+	margin-top: 20px;
+}
+
+.bar ul{
+	float: right;
+}
+
+.bar ul li{
+	float: left;
+	margin:5px;
+}
+
+.facebook{
+	display: inline-block;
+	float: right;
+	border-right:2px solid #cccccc;
+	padding-right: 8px;
+}
+.facebook a{
+	text-decoration: none;
+}
+
+.facebook span{
+	color: #4460a0;
+	font-weight: bold;
+}
+
+.facebook span:hover{
+	color:red;
+}
+
+.twitter{
+	display: inline-block;
+	float: right;
+	padding-right: 8px;
+}
+
+.twitter a{
+	text-decoration: none;
+}
+
+.twitter span{
+	color: #00aaec;
+	font-weight: bold;
+}
+
+.twitter span:hover{
+	color:red;
+}
+.clearfix{
+	clear: both;
+}
+
+/*---header---*/
+.header{
+	background-image: url(../img/header.png);
+	width: 1001px;
+	height: 417px;
+}
+
+.menu{
+	background-color: #fff;
+	height: 70px;
+
+}
+
+.menu h1{
+	float: left;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+.menu h1 a{
+	background-image: url(../img/logo.png);
+	width: 173px;
+	height: 36px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.menu ul{
+	float:right;
+}
+.menu li{
+	float: left;
+
+}
+
+.menu li a{
+	color: #00cc99;
+	display: block;
+	width: 115px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	font-weight: bold;
+	padding-top:15px;
+}
+
+.menu li a:hover{
+	border-bottom: 5px solid #00cc99;
+}
+
+.banner {
+	background: #fff;
+	height: 150px;
+	margin-top: 95px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.banner h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top:30px;
+	padding-left: 20px;
+	line-height: 50px;
+}
+
+/*intro*/
+.intro{
+	float: left;
+	width: 1001px;
+	margin-top: 20px;
+}
+
+.intro li {
+	height:400px;
+	width: 263px;
+	display: block;
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-right:20px;
+	padding-left:20px;
+	border-radius:5px;
+	box-shadow: 5px 5px 3px #e4e4e4;
+}
+
+.card1 {
+	padding:40px 30px 30px 70px;
+
+}
+
+.intro h2{
+	font-weight: bold;
+	font-size:24px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.intro span{
+	line-height: 22px;
+}
+
+.card2{
+	padding:60px 10px 40px 10px;
+}
+
+.card3 {
+	padding:50px 30px 20px 60px;
+}
+
+/*顯示不出這設定的css
+.card3 li{
+	list-style-type: disc;
+}
+*/
+
+.compare{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.compare h2{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.compare table{
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 900px;
+}
+
+.compare th,.compare td {
+	border-top: 2px solid #dddddd;
+	border-bottom: 	2px solid #dddddd;
+	text-align: left;
+	padding:10px;
+
+}
+
+.compare th{
+	font-size: 18px;
+	font-weight: bold;
+	background:#f7f7f7;
+	padding:10px;
+
+}
+
+.compare_p{
+	color:#00a67d;
+}
+
+.form{
+	background: linear-gradient(#00644b,#009872);
+	width: 1001px;
+	padding: 40px 20px 40px 20px;
+	overflow: hidden;
+}
+
+.form h2{
+	color:#fff;
+	text-align: center;
+	font-size:22px;
+	font-weight: bold;
+	line-height: 30px;
+
+}
+
+.form_opin{
+	display: block;
+	float: left;
+	margin-top: 30px;
+}
+
+.form_inp{
+	display: block;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius:5px;
+
+}
+
+.form_inp p{
+	color:#fff;
+	margin-bottom: 10px;
+}
+.form_inp input{
+	margin-bottom: 10px;
+	width: 500px;
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.btn {
+	background: #00cc99;
+	color: #fff;
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+	border-radius:5px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+	border: 0px;
+	width: 100px;
+}
+
+.footer{
+	width: 1001px;
+	display: block;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+.footer_txt{
+	float: right;
+	line-height: 25px;
+}
+
+.footer_txt span{
+	color:red;
+
+}
